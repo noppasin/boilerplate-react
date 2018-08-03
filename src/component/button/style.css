@@ -1,0 +1,10 @@
+
+.btn{border: 1px solid #ccc;letter-spacing: .5px;cursor: pointer;color: #999;line-height: initial}
+.btn>i,.btn>span{display: inline-block;vertical-align: middle}
+.btn>i{margin-right: 5px;}
+.btn.sm{padding: 4px 15px;font-size: 12px;}
+.btn.md{padding: 6px 25px 7px;font-size: 14px;}
+.btn.lg{padding: 6px 40px 7px;font-size: 16px;}
+.btn.fullwidth{width: 100%;}
+.btn.btn-back{background:white;border-color: #ccc;color: #777;transition: .3s all}
+.btn.btn-back:hover,.btn.btn-back:active,.btn.btn-back:focus{background: #fafafa;color: #494949;border-color: #999;transition: .3s all}

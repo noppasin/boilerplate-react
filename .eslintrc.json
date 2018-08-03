@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/forbid-prop-types": 0,
+    "no-useless-escape": [0],
+    "react/jsx-boolean-value": [0],
+    "standard/no-callback-literal": [0],
+    "react/jsx-indent-props": [2, 2],
+    "one-var": [0, "consecutive"],
+    "indent": ["error", 2],
+    "react/jsx-no-duplicate-props": false,
+    "react/jsx-indent": ["error", 2],
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn"
+  },
+  "extends": ["standard", "standard-jsx"]
+}

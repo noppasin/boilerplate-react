@@ -1,0 +1,19 @@
+{
+    "eslint.packageManager": "yarn",
+    "prettier.eslintIntegration": true,
+    "prettier.tabWidth": 2,
+    "prettier.printWidth": 150,
+    "editor.wordWrapColumn": 150,
+    "prettier.semi": false,
+    "prettier.bracketSpacing": false,
+    "prettier.arrowParens": "always",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false
+    },
+    "prettier.proseWrap": "never",
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    }
+}

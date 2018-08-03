@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.min.css';
+@import url('./../asset/css/app.css');
+button,input,a,p,div,b,strong,ul,li,em,label,span,html,body,dl,dt,tr,td{font-family: 'Open Sans'}
+
+#storybook{padding: 15px 10px;}
+#storybook>div>div:first-child{margin-bottom: 50px;}
+#storybook .inlineGroup>*{display: inline-block;margin-right: 15px}
+#storybook h1{font-weight: normal;color: #777;border: 0 !important;margin-bottom: 0 !important;padding-bottom: 0 !important;margin-top: 40px !important}
+#storybook h1.heading{margin-top: 0 !important}
+#storybook h1+pre button>div>div{font-size: 12px;margin-top: -1px}
+#storybook h1+pre{font-weight: normal;max-height: 200px;overflow-y: scroll;display: block;position: relative;}
+#storybook h1+pre button{position: absolute;top: 5px;right: 5px;}
+#storybook h2{display: none;}
+#storybook table{margin: 15px 0;min-width: 800px;max-width: 100%;}
+#storybook table tr>th,#storybook table tr>td{padding: 10px;font-family: 'Open Sans';border-color: #ccc;font-size: 13px;font-weight: normal;color: #999;}
+#storybook table tr>th{background: #eee;padding: 10px 15px;font-size: 15px;text-transform: capitalize;color: #494949}
+#storybook table tr>td:nth-child(3){text-align: center}
+#storybook table tr>td:nth-child(4){text-align: center}
+#storybook h3{font-weight: normal;color: #777;margin-bottom: 5px;font-size: 17px;}
+#storybook .container-fullwidth{width: 400px;background:#f9f9f9;padding: 10px;}
+#storybook h4{margin: 25px 0 0;background: #f9f9f9;color: #494949;padding: 10px;font-weight: normal;}
