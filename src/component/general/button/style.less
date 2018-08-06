@@ -1,0 +1,25 @@
+.btn{border: 1px solid #ccc;letter-spacing: .5px;cursor: pointer;color: #999;line-height: initial;background: white;transition: .3s all;display: inline-block;text-align: center;}
+.btn:hover{background:white;border-color:#aaa;color:#777;transition: .3s all;}
+.btn:hover,.btn:active,.btn:focus{box-shadow: none;outline: none;}
+.btn>i,.btn>span{display: inline-block;vertical-align: middle;}
+.btn>i{margin-right: 5px;}
+.btn.sm{padding: 4px 15px;font-size: 12px;min-width: 70px;}
+.btn.md{padding: 6px 25px 7px;font-size: 14px;min-width: 110px;}
+.btn.lg{padding: 6px 40px 7px;font-size: 16px;min-width: 150px;}
+.btn.fullwidth{width: 100%;}
+.btn.primary{background: @primary-color;color: blue;border: 1px solid #069;}
+.btn.primary:hover,.btn.primary:focus,.btn.primary:active{background: #058;border-color: #058;}
+.btn.success{background: #090;color: white;border: 1px solid #090;}
+.btn.success:hover,.btn.success:focus,.btn.success:active{background: green;border-color: green;}
+.btn.warning{background: orange;color: white;border: 1px solid orange;}
+.btn.warning:hover,.btn.warning:focus,.btn.warning:active{background: #ffb329;border-color: #ffb329;}
+.btn.danger{background: #c33;color: white;border: 1px solid #c33;}
+.btn.danger:hover,.btn.danger:focus,.btn.danger:active{background: #bd1919;border-color: #bd1919;}
+.btn:disabled{background: #eee;border-color: #cecece;color: #bbb;cursor: not-allowed;}
+.btn.loading>i{animation: spin 2s linear infinite;display: inline-block;}
+.btn.loading{background: #058;color: white;border-color: #069;}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
