@@ -1,9 +1,9 @@
 import React from 'react'
 import {withInfo} from '@storybook/addon-info'
-import {StoryGeneral} from './../main'
+import {Story} from './../main'
 import {Link} from './../../component'
 
-const {storiesOf, defaultInfo} = StoryGeneral
+const {storiesOf, defaultInfo} = Story('General')
 storiesOf.add(
   'Link',
   withInfo({...defaultInfo, source: false, text: `<h4>Source: <<b>Link</b>>Children</<b>Link</b>></h4>`})(() => [

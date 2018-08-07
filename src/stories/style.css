@@ -2,7 +2,7 @@
 @import url('./../asset/css/app.css');
 #storybook{padding:15px}
 #storybook>div>div:first-child{margin-bottom:30px}
-#storybook>div>div:last-of-type{position:fixed;top:55px;right:20px;border:0;width:890px}
+#storybook>div>div:last-of-type{position:fixed;top:50px;right:20px;border:0;width:890px}
 #storybook>div>div:last-of-type>div{padding:10px 20px!important}
 #storybook .inlineGroup>*{display:inline-block;margin-right:15px;margin-bottom:15px}
 #storybook .inlineGroup>:last-child{margin-right:0}

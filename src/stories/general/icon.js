@@ -1,10 +1,10 @@
 import React from 'react'
 import {withInfo} from '@storybook/addon-info'
-import {StoryGeneral} from './../main'
+import {Story} from './../main'
 import IconFont from './../../asset/font/iconfont.svg'
 import SVG from 'react-inlinesvg'
 
-const {storiesOf, defaultInfo} = StoryGeneral
+const {storiesOf, defaultInfo} = Story('General')
 
 class FontIcon extends React.Component {
   state = {fonts: []}

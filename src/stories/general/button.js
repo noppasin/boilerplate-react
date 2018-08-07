@@ -1,10 +1,10 @@
 import React from 'react'
 import {withInfo} from '@storybook/addon-info'
 import {action} from '@storybook/addon-actions'
-import {StoryGeneral} from './../main'
+import {Story} from './../main'
 import {Button} from './../../component'
 
-const {storiesOf, defaultInfo} = StoryGeneral
+const {storiesOf, defaultInfo} = Story('General')
 storiesOf.add(
   'Button',
   withInfo({...defaultInfo, source: false, text: `<h4>Source: <<b>Button</b> /></h4>`})(() => [

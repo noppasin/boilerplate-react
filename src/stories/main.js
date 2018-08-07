@@ -14,7 +14,24 @@ const AppRouter = (story) => {
   )
 }
 
-export const StoryGeneral = {
-  storiesOf: storiesOf('General', module).addDecorator((story) => AppRouter(story)),
-  defaultInfo: defaultInfo
+export const Story = (name) => {
+  return {
+    storiesOf: storiesOf(name, module).addDecorator((story) => AppRouter(story)),
+    defaultInfo: defaultInfo
+  }
 }
+
+// export const StoryGeneral = {
+//   storiesOf: storiesOf('General', module).addDecorator((story) => AppRouter(story)),
+//   defaultInfo: defaultInfo
+// }
+
+// export const StoryNavigate = {
+//   storiesOf: storiesOf('Navigate', module).addDecorator((story) => AppRouter(story)),
+//   defaultInfo: defaultInfo
+// }
+
+// export const StoryEntry = {
+//   storiesOf: storiesOf('Navigate', module).addDecorator((story) => AppRouter(story)),
+//   defaultInfo: defaultInfo
+// }
